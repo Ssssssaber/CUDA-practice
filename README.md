@@ -7,15 +7,19 @@ The result bin path is 'bin/{System name}{OS bitness}/{Build type}'.
 Example:
 * System: Windows
 * Bitness: 64
-* Type: Release
+* Type: Release <br>
 Result build path is 'bin/Windows64/Release/'
 
 #### Windows
 ```console
+git clone https://github.com/Ssssssaber/CUDA-practice
+cd CUDA-practice/
 ./build-release.bat
 ```
 #### Linux
 ```console
+git clone https://github.com/Ssssssaber/CUDA-practice
+cd CUDA-practice/
 ./build-release.sh
 ```
 
